@@ -1,3 +1,16 @@
+# 安装
+```
+proxychains git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting 
+
+vi ~/.zshrc
+
+plugins=(
+    git
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
+```
+
 zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]
 =======================
 
